@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BlackRectButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:backgroundTint">@android:color/black</item>
+    </style>
+    <style name="CustomFabStyle">
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorTransparent"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/menubt"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/baseline_menu_24"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/titlebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/baseline_search_24"
+        android:layout_gravity="end" />
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:src="@drawable/baseline_share_24"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp" />
+
+    <ImageView
+        android:id="@+id/notify"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/baseline_notifications_none_24"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end" />
+
+
+
+</androidx.appcompat.widget.Toolbar>
